@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigo Secreto</title>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="amigosecreto.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego del Amigo Secreto 🎉</h1>
+    <div>
+        <input id="nameInput" type="text" placeholder="Nombre">
+        <input id="phoneInput" type="text" placeholder="Teléfono (ej: +123456789)">
+        <button id="addNameButton">Agregar</button>
+      </div>
+    <h2>Lista de Participantes</h2>
+    <ul id="nameList"></ul>
+
+    <button id="generatePairsButton" disabled>Generar Amigo Secreto</button>
+
+    <h2>Parejas Generadas</h2>
+    <ul id="pairsList"></ul>
+  </div>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="amigosecreto.js"></script>
+</body>
+</html>
