@@ -1,3 +1,18 @@
+// Importa SweetAlert
+import swal from 'sweetalert';
+
+
+// Esperar a que el DOM esté completamente cargado
+document.addEventListener('DOMContentLoaded', () => {
+  // Mostrar la alerta
+  swal({
+    title: "Good job!",
+    text: "You clicked the button!",
+    icon: "success",
+    button: "Aww yiss!",
+  });
+});
+
 // const nameInput = document.getElementById("nameInput");
 // const phoneInput = document.getElementById("phoneInput");
 // const addNameButton = document.getElementById("addNameButton");
